@@ -75,9 +75,8 @@ ax.set_title('Sphere Function (3D Surface Plot)')
 plt.legend()
 plt.show()
 
-# Jaya je algoritmus pro nalezení nejlepšího řešení optimalizačního problému, např. v našem případě
-# pro nalezení globálního minima funkce. Používá populaci kandidátních řešení a iterativně
-# je vylepšuje, aby se přiblížila k optimálnímu výsledku. Jaya využívá koncept posouvání všech
-# řešení blíže k nejlepšímu řešení (exploatace), zatímco je zároveň posouvá dál od nejhoršího řešení
-# (vyhýbání se). Z grafu lze vidět, že algoritmus správně nalezl globální minimum funkce (s menší
-# odchylkou). Graf reflektoval změny vstupních parametrů, a to například zvolený počet iterací.
+# Jaya je algoritmus pro nalezení nejlepšího řešení optimalizačního problému, např. v našem případě pro nalezení globálního minima funkce.
+# Používá populaci kandidátních řešení a iterativně je vylepšuje, aby se přiblížila k optimálnímu výsledku. Jaya využívá koncept posouvání
+# všech řešení blíže k nejlepšímu řešení (exploatace), zatímco je zároveň posouvá dál od nejhoršího řešení (vyhýbání se).
+# Z grafu lze vidět, že algoritmus správně nalezl globální minimum funkce (s menší odchylkou).
+# Graf reflektoval změny vstupních parametrů, a to například zvolený počet iterací.
